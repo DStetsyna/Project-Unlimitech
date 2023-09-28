@@ -1,0 +1,80 @@
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider_cards {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .slider_cards {
+    padding: 0px 40px;
+  }
+}
+.slider_cards .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 36px;
+  height: 36px;
+}
+
+.slider_cards .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../images/ARROW1.1.png") 0 0/100% no-repeat;
+}
+
+.slider_cards .slick-arrow.slick-next {
+  right: 0;
+  background: url("../images/ARROW1.0.png") 0 0/100% no-repeat;
+}
+
+.slider_cards .slick-arrow.slick-disabled {
+  opacity: 1;
+}
+
+.slider_cards .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider_cards .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.slider_cards .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.slider_cards .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.card {
+  padding: 0px 15px;
+}
+.card img:hover {
+  filter: brightness(70%);
+}
+
+.card img {
+  max-width: 100%;
+}/*# sourceMappingURL=card_slider.css.map */
