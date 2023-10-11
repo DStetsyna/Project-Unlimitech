@@ -43,6 +43,9 @@
         text-align: center;
         margin: 0 auto;
         text-transform: uppercase;
+        .labelcount{
+            margin-right: 48px;
+        }
         span{
             color: #FF6B6B;
             font-weight: 700;
@@ -52,6 +55,7 @@
             margin: 0 0 0 48px;
         }
     }
+    
     &__main{
         padding: 40px 0 42px 0;
         .logo{
