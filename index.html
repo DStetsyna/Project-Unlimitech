@@ -217,9 +217,10 @@
                         <h1 style="color: #0068ff; font-size: 77px; position: absolute; font-weight: 400; top: 50px; left: 96px;">NEWSLETTER</h1>
                         <p style="font-size: 18px; color: black; font-weight: 500; position: absolute; top: 150px; left: 96px;">Dołącz do newslettera i bądź na bieżąco ze wszystkimi</p>
                         <p style="color: black; font-size: 18px; font-weight: 600; position: absolute; top: 170px; left: 96px;">PROMOCJAMI I NOWOŚCIAMI</p>
-                        <input type="email" id="email" name="email" style="position: absolute; top: 49px; right: 96px; width: 676px; height: 40px; border: 1px solid #0068ff;" required/>
-                        <input type="tel" id="phone" name="phone" size="10" minlength="9" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" style="position: absolute; top: 105px; right: 96px; width: 676px; height: 40px; border: 1px solid #0068ff;" required />
-                        <button style="position: absolute; top: 161px; right: 96px; width: 682px; height: 40px; background-color: black; color: #FFFF; font-size: 16px; font-weight: 700; ">Dołącz teraz</button>
+                        <input type="text" id="emailInput" name="email" style="position: absolute; top: 49px; right: 96px; width: 676px; height: 40px; border: 1px solid #0068ff;" required/>
+                        <input type="text" id="phoneInput" name="phone" size="10" minlength="9" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" style="position: absolute; top: 105px; right: 96px; width: 676px; height: 40px; border: 1px solid #0068ff;" required />
+                        <button id="validateButton" style="position: absolute; top: 161px; right: 96px; width: 682px; height: 40px; background-color: black; color: #FFFF; font-size: 16px; font-weight: 700; ">Dołącz teraz</button>
+                        <script src="js/email_validation.js"></script>
                     </div>
                     <div class="bottom" style="position: relative;">
                         <p class="botlogo" style="position: absolute; top: 16px; left: 902px; font-weight: 500; font-size: 12px; color: black; margin-bottom: 20px;">UNLIMITECH 2022</p>

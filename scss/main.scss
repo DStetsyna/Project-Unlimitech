@@ -350,8 +350,9 @@
                 left: 259px;
                 z-index: 10;
             }
-            .like{
+            #heartButton{
                 position: absolute;
+                background-color: #ccc;
                 border: none;
                 top: 25px;
                 left: 22px;
@@ -359,9 +360,6 @@
                 background-color: #fff;
                 border-radius: 25px;
                 opacity: 0.5;
-            }
-            .like:active{
-                color:red;
             }
             .plbaner{
                 position: absolute;
